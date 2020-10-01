@@ -1,0 +1,10 @@
+.venv/
+*.pyc
+__pycache__/
+.vscode/settings.json
+.ropeproject
+.mypy_cache
+*.egg-info
+.env
+dist/
+*.whl

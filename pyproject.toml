@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "bazinga"
+version = "0.1.0"
+description = ""
+authors = ["Paulo Ricardo <paulo.rgomes22@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+jinja2 = "^2.11.2"
+aiofiles = "^0.5.0"
+fastapi = "^0.61.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
