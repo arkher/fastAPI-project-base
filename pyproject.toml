@@ -9,7 +9,10 @@ python = "^3.7"
 jinja2 = "^2.11.2"
 aiofiles = "^0.5.0"
 fastapi = "^0.61.1"
-orjson = "^3.4.0"
+orjson = "3.0"
+uvicorn = "^0.12.1"
+marshmallow = "^3.8.0"
+databases = "^0.3.2"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
